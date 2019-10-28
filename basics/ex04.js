@@ -8,20 +8,27 @@
 */
 
 //  écrire votre code sous ce commentaire
+function isEven(num){
+  if(num % 2 == 0){
+    return 1;
+  }else{
+    return 0;
+  }
+}
 
-/*
+  /*
   Test 1
   Résultat attendu : 1
-*/
+  */
+ 
+ console.log(isEven(6));
+ 
+ /*
+ Test 2
+ Résultat attendu : 0
+ */
 
-isEven(6);
-
-/*
-  Test 2
-  Résultat attendu : 0
-*/
-
-isEven(5);
+console.log(isEven(5));
 
 /* DO NOT TOUCH */
 module.exports = {
