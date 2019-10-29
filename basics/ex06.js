@@ -1,3 +1,4 @@
+
 /*
     Ecrire une fonction "getHumanTypeByAge",
     qui prend un paramètre un nombre,
@@ -7,45 +8,66 @@
         - "adulte" si le nombre est supérieur ou égal à 18 et strictement inférieur à 124
         - "impossible... ou encore jamais vu" si le nombre est supérieur ou égal à 124
             ou si le nombre est strictement inférieur à 1;
+            
+            */
+function getHumanTypeByAge(num) {
+  switch (true) {
+    case num < 1 || num >= 124:
+      return "impossible...encore jamais vu";
+      break;
+    case num < 12:
+      return "enfant";
+      break;
 
-*/
+    case num >= 12 && num < 18:
+      return "ado";
+      break;
 
+    case num >= 18 && num < 124:
+      return "adulte";
+      break;
+
+
+    default:
+      console.log("what?")
+  }
+}
 //  écrire votre code sous ce commentaire
 
 /*
-  Test 1
-  Résultat attendu : "impossible... ou encore jamais vu"
+Test 1
+Résultat attendu : "impossible... ou encore jamais vu"
 */
 
-getHumanTypeByAge(-5);
+console.log(getHumanTypeByAge(-5));
 
 /*
   Test 2
   Résultat attendu : "enfant"
 */
 
-getHumanTypeByAge(6);
+console.log(getHumanTypeByAge(6));
 
 /*
   Test 3
   Résultat attendu : "ado"
 */
 
-getHumanTypeByAge(17);
+console.log(getHumanTypeByAge(17));
 
 /*
   Test 4
   Résultat attendu : "adulte"
 */
 
-getHumanTypeByAge(33);
+console.log(getHumanTypeByAge(33));
 
 /*
   Test 5
   Résultat attendu : "impossible... ou encore jamais vu"
 */
 
-getHumanTypeByAge(140);
+console.log(getHumanTypeByAge(140));
 
 /* DO NOT TOUCH */
 module.exports = {
