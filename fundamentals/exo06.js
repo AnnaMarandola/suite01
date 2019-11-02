@@ -11,14 +11,14 @@ function addThree(number) {
     return number + 3;
 }
 
-
+console.log(addThree(10))
 /*
   Test 1
   Résultat attendu : 13
 */
 //  écrire votre code sous ce commentaire
 
-
+console.log(addThree(54))
 
 /*
   Test 2
