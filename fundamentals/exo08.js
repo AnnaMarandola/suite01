@@ -11,6 +11,7 @@
 
 //  écrire votre code sous ce commentaire
 function returnFirstEtl(arr) {
+  return arr[0]
 
 }
 
@@ -19,13 +20,13 @@ function returnFirstEtl(arr) {
   Test 1:
   Résultat attendu : "Hello";
 */
-returnFirstEtl(['Hello', 'Good morning', 'Hey', 'Hi']);
+console.log(returnFirstEtl(['Hello', 'Good morning', 'Hey', 'Hi']));
 
 /*
   Test 2:
   Résultat attendu : 1;
 */
-returnFirstEtl([1, 2, 3, 4]);
+console.log(returnFirstEtl([1, 2, 3, 4]));
 
 
 /* DO NOT TOUCH */
