@@ -10,6 +10,15 @@
 
 //  écrire votre code sous ce commentaire
 
+let age = 39;
+let name = " Anna";
+let isAGeek = true;
+
+
+console.log(name, isAGeek, age)
+
+
+
 
 
 /*
