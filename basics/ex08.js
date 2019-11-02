@@ -14,20 +14,40 @@
 */
 
 //  écrire votre code sous ce commentaire
+function isEven(i) {
+  if (i % 2 == 0) {
+    return 1;
+  } else {
+    return 0;
+  }
+}
+//console.log(isEven(4));
+//console.log(isEven(5));
+
+function isAllEven(arr) {
+
+  let arrOfEvens = arr.filter(isEven)
+ // console.log(arrOfEvens)
+  if (arrOfEvens.length == arr.length){
+    return 1;
+  } else {
+    return 0;
+  }
+}
 
 /*
   Test 1
   Résultat attendu : 0
 */
 
-isAllEven([4, 5, 6]);
+console.log(isAllEven([4, 5, 6]));
 
 /*
   Test 2
   Résultat attendu : 1
 */
 
-isAllEven([4, 4, 6, 8, 10, 12]);
+console.log(isAllEven([4, 4, 6, 8, 10, 12]));
 
 /* DO NOT TOUCH */
 module.exports = {
