@@ -17,6 +17,7 @@ function returnArray() {
     const uiDesigner = 'Mark Johns';
     const frontDev = 'Mika Kelt';
     const backDev = 'Maria Hellins';
+    return [projectManager, uxDesigner, uiDesigner, frontDev, backDev]
 }
 
 
@@ -24,7 +25,7 @@ function returnArray() {
   Test:
   Résultat attendu : ["Dan Smith", "Helga Ollens", "Mark Johns", "Mika Kelt", "Maria Hellins"];
 */
-returnArray();
+console.log(returnArray());
 
 
 /* DO NOT TOUCH */
