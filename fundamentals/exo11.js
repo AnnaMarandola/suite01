@@ -12,7 +12,10 @@
 
 //  écrire votre code sous ce commentaire
 function repeatTenTimes(arg) {
-    
+  for (let i = 0; i < 10; i++) {
+    console.log(arg)
+  }
+  return "-----"
 }
 
 /*
@@ -29,7 +32,7 @@ function repeatTenTimes(arg) {
   1
   1
 */
-repeatTenTimes(1)
+console.log(repeatTenTimes(1))
 
 /*
   Test 2:
@@ -45,7 +48,7 @@ repeatTenTimes(1)
   "Hello"
   "Hello"
 */
-repeatTenTimes("Hello")
+console.log(repeatTenTimes("Hello"))
 
 /*
   Pour tester ce code, aller sur https://jsbin.com/?js,console
