@@ -9,7 +9,9 @@
 */
 
 //  écrire votre code sous ce commentaire
-
+function returnArg (i){
+  return i
+}
 
 
 /*
@@ -17,21 +19,21 @@
   Résultat attendu : "Hello"
 */
 
-returnArg('Hello');
+console.log(returnArg('Hello'));
 
 /*
   Test 2
   Résultat attendu : "3"
 */
 
-returnArg(3);
+console.log(returnArg(3));
 
 /*
   Test 3
   Résultat attendu : false
 */
 
-returnArg(false);
+console.log(returnArg(false));
 
 
 /* DO NOT TOUCH */
