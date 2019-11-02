@@ -12,8 +12,9 @@ const str1 = 'Hello';
 const str2 = 'world';
 let message = '';
 //  écrire votre code sous ce commentaire
-
+message = `${str1} ${str2}`;
 console.log(message);
+
 
 /*
   Pour tester ce code, aller sur https://jsbin.com/?js,console
