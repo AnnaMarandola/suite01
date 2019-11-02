@@ -10,8 +10,11 @@ let level = 1;
 let pseudo = 'unknown';
 let isLevelMax = false;
 //  écrire votre code sous ce commentaire
+level = 2;
+pseudo = "jean-claude";
+isLevelMax = true;
 
-
+console.log(pseudo, level, isLevelMax)
 
 /*
   Pour tester ce code, aller sur https://jsbin.com/?js,console
