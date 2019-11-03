@@ -9,3 +9,16 @@
  * -- state :
  *    none
  */
+
+import React from 'react';
+
+const Exo1 = () => {
+    return (
+        <div>
+            <h1>Bienvenue en JS !</h1>
+        </div>
+    )
+}
+
+
+export default Exo1;
