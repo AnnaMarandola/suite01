@@ -11,18 +11,31 @@
 */
 
 //  écrire votre code sous ce commentaire
+function searchOcc(arr, str){
+  for (let i = 0; i<arr.length ; i++){
+    if (arr[i] == str){
+      return i
+    }
+      
+    }
+      return -1
+    
+
+  }
+
+
 
 /*
   Test 1
   Résultat attendu : 2
 */
-searchOcc(["Salut", "ça", "va", "?"], "va");
+console.log(searchOcc(["Salut", "ça", "va", "?"], "va"));
 
 /*
   Test 2
   Résultat attendu : -1
 */
-searchOcc(["Salut", "ça", "va", "?"], "Ahahahah");
+console.log(searchOcc(["Salut", "ça", "va", "?"], "Ahahahah"));
 
 /* DO NOT TOUCH */
 module.exports = {
